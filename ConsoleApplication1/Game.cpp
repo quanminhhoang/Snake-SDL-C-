@@ -106,9 +106,7 @@ void Game::GameLoop()
    }
 
    
-    Uint32 before;
-    Uint32 second = SDL_GetTicks();
-    Uint32 after;
+    Uint32 before,after;
     int frame_time;
     SpawnFood();
    
@@ -129,12 +127,7 @@ void Game::GameLoop()
        
         after = SDL_GetTicks();
         frame_time = after - before;
-
-        if (after - second >= 1000)
-        {
-            second = after;
-        }
-
+        
         if (FRAME_RATE > frame_time)
         {
             SDL_Delay(FRAME_RATE - frame_time);
