@@ -1,0 +1,4 @@
+﻿  Game.cpp
+C:\Users\Admin\OneDrive\Documents\C++\ConsoleApplication1\Game.cpp(112,9): warning C4101: 'frame_time': unreferenced local variable
+C:\Users\Admin\OneDrive\Documents\C++\ConsoleApplication1\Game.cpp(111,12): warning C4101: 'after': unreferenced local variable
+  ConsoleApplication1.vcxproj -> C:\Users\Admin\OneDrive\Documents\C++\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
